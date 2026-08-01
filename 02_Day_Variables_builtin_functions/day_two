@@ -1,0 +1,56 @@
+# 30DaysOfPython day 2
+
+first_name = 'Walt'
+last_name = 'Strange'
+full_name = 'Walt Strange'
+country = 'USA'
+city = 'New York'
+age = 19
+year = 2026
+is_married = False
+is_true = True
+is_light_on = True
+is_cool, is_fun = 'Python', '30 days'
+
+print(type(first_name))
+print(type(age))
+print(type(is_married))
+print(len(first_name))
+print(len(last_name))
+
+num_one = 5
+num_two = 4
+
+total = num_one + num_two
+print(total)
+diff = num_one - num_two
+print(diff)
+product = num_one * num_two
+print(product)
+divison = num_one / num_two
+print(divison)
+remainder = num_two % num_one
+print(remainder)
+exp = num_one ** num_two
+print(exp)
+floor_divison = num_one // num_two
+print(floor_divison)
+circle_area = 3.14 * ((30) ** 2)
+print(circle_area)
+circle_circum = 2 * 3.14 * 30
+print(circle_circum)
+
+radius = int(input('Input radius: '))
+circle_area = 3.14 * ((radius) ** 2)
+print(circle_area)
+
+first_name = input('First name: ')
+last_name = input('Last name: ')
+country = input('Country: ')
+age = input('Age: ')
+print(first_name)
+print(last_name)
+print(country)
+print(age)
+
+help('keywords')
