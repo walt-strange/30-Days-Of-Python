@@ -1,0 +1,80 @@
+# 30DaysOfPython Day 3
+
+age = 21
+height = 6.25
+complex_num = 1 + 1j
+print(type(complex_num))
+
+base = int(input('Enter base: '))
+height = int(input('Enter height: '))
+area = 0.5 * base * height
+print(area)
+
+side_a = int(input('Enter side a: '))
+side_b = int(input('Enter side b: '))
+side_c = int(input('Enter side c: '))
+perimeter = side_a + side_b + side_c
+print(perimeter) 
+
+length = int(input('Length: '))
+width = int(input('Width: '))
+area = length * width
+perimeter = 2 * (length + width)
+print('Area:', area)
+print('Perimeter:', perimeter) 
+
+radius = int(input('Radius: '))
+area = 3.14 * (radius ** 2)
+circum = 2 * 3.14 * radius
+print('Area:', area)
+print('Circumference:', circum)
+
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+m = (y2 - y1) / (x2 - x1)
+print(m)
+
+euc_distance = (((y2 - y1) ** 2) + ((x2 - x1) ** 2)) ** 0.5
+print(euc_distance)
+
+print(2 == m)
+x = -3
+y = x ** 2 + 6 * x + 9
+print(y)
+
+print(len('python') != len('Dragon'))
+
+print('on' in 'python' and 'on' in 'Dragon')
+
+print('jargon' in 'I hope this course is not full of jargon.')
+
+python_length = len('python')
+python_length = float(python_length)
+print(type(python_length))
+python_length = str(python_length)
+print(type(python_length))
+
+num = int(input('number: '))
+if num % 2 == 0:
+    print('Even')
+else:
+    print('Odd')
+    
+print(7 // 3 == int(2.7))
+print(type('10') == type(10))
+print(int(9.8) == 10) 
+
+hours = int(float(input('Input weekly hours: ')))
+wage = int(float(input('Input hourly wage: ')))
+earnings = hours * wage
+print('Earnings:', earnings)
+
+years = (input('How old are you: '))
+seconds = years * 365 * 24 * (60 ** 2)
+print(f'You have lived {seconds} seconds')
+
+print('''1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125''')
