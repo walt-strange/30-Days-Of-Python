@@ -1,0 +1,31 @@
+empty_tuple = ()
+team_sports = ('soccer', 'basketball', 'football')
+ind_sports = ('golf', 'track', 'swimming')
+sports = team_sports + ind_sports
+print(sports)
+print(len(sports))
+more_sports = sports + ('volleyball', 'baseball')
+print(more_sports)
+
+some_sports = more_sports[0:(len(more_sports) - 3)]
+other_sports = more_sports[-2:]
+print(some_sports)
+print(other_sports)
+
+fruits = ('apples', 'oranges', 'bananas')
+veggies = ('carrots', 'lettuce', 'bell peppers')
+animal_products = ('steak', 'eggs', 'beef', 'chicken')
+
+food_stuff_tp = fruits + veggies + animal_products
+food_stuff_lt = list(food_stuff_tp)
+
+print(str(food_stuff_tp[int((len(food_stuff_tp) - 1) // 2):int((len(food_stuff_tp) - 1) / 2 + 1.5) ]))
+
+print(food_stuff_tp[0:3])
+print(food_stuff_tp[-3:])
+
+del food_stuff_tp
+
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+print('Estonia' in nordic_countries)
+print('Iceland' in nordic_countries)
